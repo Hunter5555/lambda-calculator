@@ -21,7 +21,7 @@ function App() {
     <div className="container">
       <Logo />
       <div className="App">
-             <div className= "numbersButton">
+       <div className= "numbersButton">
         <Display />
         <Specials />
         <Numbers />

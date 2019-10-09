@@ -7,11 +7,11 @@ export default function Numbers() {
   const [nums] = useState(numbers)
 
   return (
-    <>
+    <div>
       {nums.map((n, index) => 
         <NumberButton key={index} numbers={n} />
       )}
-    </>
+    </div>
 
   );
 };
